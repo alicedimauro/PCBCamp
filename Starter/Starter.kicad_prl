@@ -28,8 +28,10 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [],
-    "visible_layers": "f7f7dff_ffffffff",
+    "visible_items": [
+      "shapes"
+    ],
+    "visible_layers": "00000000_00000000_0f7f7dff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -40,7 +42,7 @@
   },
   "meta": {
     "filename": "Starter.kicad_prl",
-    "version": 3
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
