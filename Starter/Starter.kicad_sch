@@ -1137,187 +1137,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECE319K:HeadphoneJack"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "AudioJack"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "ECE319K:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
-				(at -2.54 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Speaker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "headphone sound"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HeadphoneJack_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -8.89)
-					(end 1.016 -13.97)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -8.89) (xy 3.556 -6.35) (xy 3.556 -16.51) (xy 1.016 -13.97)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HeadphoneJack_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -6.35) (xy -1.27 -6.35) (xy -1.27 -3.81) (xy -1.27 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HeadphoneJack_1_1"
-				(pin input line
-					(at -7.62 -1.27 0)
-					(length 5.12)
-					(name "tip"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -6.35 0)
-					(length 5.12)
-					(name "sleeve"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -11.43 0)
-					(length 5.12)
-					(name "ring"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ECE319K:HiLetGo_ST7735R"
 			(pin_names
 				(offset 1.016)
@@ -5344,17 +5163,6 @@
 		)
 		(uuid "1a67f2ad-166f-4b1f-9c66-19adfb90650c")
 	)
-	(text "unnecessary test point"
-		(exclude_from_sim no)
-		(at 166.624 43.942 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 4 27 1)
-			)
-		)
-		(uuid "24ece4f6-3eef-497f-b07c-24e0587929ae")
-	)
 	(text "check that these pins are correct?"
 		(exclude_from_sim no)
 		(at 29.464 172.72 0)
@@ -5431,17 +5239,6 @@
 		)
 		(uuid "e68aabb8-f300-40e6-b8f9-e69f6cad286e")
 	)
-	(text "unnecessary test point"
-		(exclude_from_sim no)
-		(at 169.672 19.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 4 27 1)
-			)
-		)
-		(uuid "f27a2993-7a77-4961-b9c2-b41313dc6c02")
-	)
 	(text "speaker"
 		(exclude_from_sim no)
 		(at 146.05 158.242 0)
@@ -5452,18 +5249,6 @@
 			)
 		)
 		(uuid "f3d308e6-ef17-4def-960d-ba3a5fd42383")
-	)
-	(junction
-		(at 177.8 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1254de16-9a44-4a5a-b5cf-81aeed570d49")
-	)
-	(junction
-		(at 144.78 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15ddb681-7c9a-44dd-92cd-a2415cf5d0be")
 	)
 	(junction
 		(at 265.43 121.92)
@@ -5514,34 +5299,10 @@
 		(uuid "78be8b4c-e722-470f-a056-22c6b7b2dff9")
 	)
 	(junction
-		(at 147.32 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b7d0830-b2df-458f-b9c8-5b0ed97038fe")
-	)
-	(junction
-		(at 153.67 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8618d562-2b0a-4e9f-905f-330c6e6bc071")
-	)
-	(junction
 		(at 246.38 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f46979a-62c9-4bd0-bf9a-562a97580eb6")
-	)
-	(junction
-		(at 181.61 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fb3d685-3600-4a73-86ed-7705f612f212")
-	)
-	(junction
-		(at 151.13 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98b1ff60-0fd2-40da-9d74-210375a87abf")
 	)
 	(junction
 		(at 142.24 140.97)
@@ -5562,16 +5323,22 @@
 		(uuid "ae48fb4d-6004-45c6-a3a7-e6c2c260c883")
 	)
 	(junction
-		(at 156.21 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b947400c-fc4e-493b-81be-271607409b34")
-	)
-	(junction
 		(at 142.24 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd5b9a0d-3bb9-4980-8022-bb2293156a51")
+	)
+	(junction
+		(at 147.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be8e8124-4deb-48c4-82ab-b5db9c9bd871")
+	)
+	(junction
+		(at 144.78 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3979fcf-1985-4b46-bb4f-2fd4da900915")
 	)
 	(junction
 		(at 46.99 106.68)
@@ -5610,12 +5377,6 @@
 		(uuid "e9c0b7dc-37de-480c-9fea-56c647d73c4b")
 	)
 	(junction
-		(at 151.13 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9fd713c-53d2-4f86-96a7-448bda7ec648")
-	)
-	(junction
 		(at 45.72 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5640,16 +5401,6 @@
 			(type default)
 		)
 		(uuid "03d728f5-b9e9-4a0d-861a-00ee321ea205")
-	)
-	(wire
-		(pts
-			(xy 165.1 53.975) (xy 156.21 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0623fde6-625a-42af-8c91-989d5d490f75")
 	)
 	(wire
 		(pts
@@ -5700,16 +5451,6 @@
 			(type default)
 		)
 		(uuid "09e6197f-26fc-4585-b048-5ec925e755c4")
-	)
-	(wire
-		(pts
-			(xy 181.61 66.04) (xy 189.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdc321d-3705-4917-aeb9-91fcef022525")
 	)
 	(wire
 		(pts
@@ -5783,16 +5524,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 181.61 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ce7423-4d6f-4b5c-a15d-9e188dd039ea")
-	)
-	(wire
-		(pts
 			(xy 22.86 106.68) (xy 34.29 106.68)
 		)
 		(stroke
@@ -5800,6 +5531,16 @@
 			(type default)
 		)
 		(uuid "1583387a-8cbd-431c-9596-0269d50dffe9")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 144.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17164009-892b-45ae-bcd2-1baffbad4d5b")
 	)
 	(wire
 		(pts
@@ -5930,16 +5671,6 @@
 			(type default)
 		)
 		(uuid "29a0e079-03bd-4361-b425-9fcab7490e5f")
-	)
-	(wire
-		(pts
-			(xy 164.465 25.4) (xy 164.465 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d39059-e593-45c4-95af-bc6d93ec5179")
 	)
 	(wire
 		(pts
@@ -6313,13 +6044,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 53.975) (xy 156.21 50.8)
+			(xy 147.32 83.82) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a9f9e14-3547-4dbb-9fd2-53258ef7e44f")
+		(uuid "67983abc-26d3-4f47-84af-7015a51975c0")
 	)
 	(wire
 		(pts
@@ -6343,6 +6074,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 87.63) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cabba7a-4438-41f7-845f-9978ef4ed752")
+	)
+	(wire
+		(pts
 			(xy 97.79 101.6) (xy 97.79 26.67)
 		)
 		(stroke
@@ -6353,17 +6094,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 29.21) (xy 151.13 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71096c75-e0df-47d5-a079-e5e4ac4d7a33")
-	)
-	(wire
-		(pts
-			(xy 172.72 66.04) (xy 177.8 66.04)
+			(xy 172.72 66.04) (xy 189.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6410,16 +6141,6 @@
 			(type default)
 		)
 		(uuid "760fbdf7-157d-4c79-864b-348c3e07d87b")
-	)
-	(wire
-		(pts
-			(xy 151.13 25.4) (xy 151.13 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "761e8bc5-807a-4d4f-9819-9a63fa7f36d1")
 	)
 	(wire
 		(pts
@@ -6473,16 +6194,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 153.67 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80735b19-0984-4058-bcf2-c8b144a201bb")
-	)
-	(wire
-		(pts
 			(xy 58.42 29.21) (xy 69.85 29.21)
 		)
 		(stroke
@@ -6490,36 +6201,6 @@
 			(type default)
 		)
 		(uuid "8294a6c8-8dfe-49b6-ac78-adbafa82f1a2")
-	)
-	(wire
-		(pts
-			(xy 147.32 50.8) (xy 153.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8329dcd8-e7e4-4c2f-afe3-fa5929513f92")
-	)
-	(wire
-		(pts
-			(xy 165.1 50.8) (xy 165.1 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835b83e6-a595-4a12-b7c6-e74e99c16840")
-	)
-	(wire
-		(pts
-			(xy 144.78 62.23) (xy 144.78 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "851db91e-04fc-4445-90db-833a957ba8ab")
 	)
 	(wire
 		(pts
@@ -6553,7 +6234,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 125.73) (xy 232.41 125.73)
+			(xy 320.04 165.1) (xy 317.5 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6650,16 +6331,6 @@
 			(type default)
 		)
 		(uuid "9f7746a7-fa1c-4511-afec-13b701c7547f")
-	)
-	(wire
-		(pts
-			(xy 151.13 29.21) (xy 151.13 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a43342-1f16-4093-ae6e-de4e785fd019")
 	)
 	(wire
 		(pts
@@ -6853,16 +6524,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5aad8b-cc49-4b1a-ab35-0e4ad02db9bf")
-	)
-	(wire
-		(pts
 			(xy 58.42 53.34) (xy 62.23 53.34)
 		)
 		(stroke
@@ -6870,16 +6531,6 @@
 			(type default)
 		)
 		(uuid "cdac96f6-3f0f-4135-9758-b46a1f0f1399")
-	)
-	(wire
-		(pts
-			(xy 153.67 50.8) (xy 156.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d102c013-c280-49b6-8a04-031d7b3438f3")
 	)
 	(wire
 		(pts
@@ -6943,16 +6594,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 25.4) (xy 160.655 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc849f3b-88dd-45d1-97df-19f7e4709a11")
-	)
-	(wire
-		(pts
 			(xy 142.24 140.97) (xy 142.24 153.67)
 		)
 		(stroke
@@ -6970,16 +6611,6 @@
 			(type default)
 		)
 		(uuid "e1a3acb7-fa9a-4005-ad00-4d9c7be2cc58")
-	)
-	(wire
-		(pts
-			(xy 164.465 29.21) (xy 151.13 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24c81f9-fdae-4500-af44-561be8e02917")
 	)
 	(wire
 		(pts
@@ -7050,16 +6681,6 @@
 			(type default)
 		)
 		(uuid "ef711be7-6e5a-4154-839f-a8ea8e7b6be9")
-	)
-	(wire
-		(pts
-			(xy 147.32 87.63) (xy 147.32 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef778249-7dbf-4d0c-b44f-6dec6a274e03")
 	)
 	(wire
 		(pts
@@ -7170,16 +6791,6 @@
 			(type default)
 		)
 		(uuid "fabd029a-d760-4b46-98c7-8c0a362a1064")
-	)
-	(wire
-		(pts
-			(xy 156.21 50.8) (xy 161.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd6eb96-eb36-4173-a8be-011d34e03605")
 	)
 	(wire
 		(pts
@@ -10671,75 +10282,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:Testpoint")
-		(at 163.195 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7655a965-d879-459c-b0fc-21331a3fdd10")
-		(property "Reference" "J6"
-			(at 163.195 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.005 47.3074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECE319K:Testpoint_1x02_P2.54mm"
-			(at 163.195 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.195 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.195 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dd5d019-240b-4ca6-bb31-c55910d8706c")
-		)
-		(pin "2"
-			(uuid "1ef7af9c-1869-4f6d-805b-04e538b47a3c")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ECE319K:MountingHole")
 		(at 280.67 20.32 0)
 		(unit 1)
@@ -10946,7 +10488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 52.07 0)
+		(at 147.32 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10955,7 +10497,7 @@
 		(fields_autoplaced yes)
 		(uuid "80dc0593-e3a4-4de6-b980-9d6b769737e3")
 		(property "Reference" "#PWR0108"
-			(at 153.67 58.42 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10964,7 +10506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 57.15 0)
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +10514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 52.07 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +10523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 52.07 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +10532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 52.07 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +11362,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:R_0.125W")
-		(at 237.49 125.73 270)
+		(at 322.58 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11828,7 +11370,7 @@
 		(dnp no)
 		(uuid "b2cf3ae3-fc49-45e1-af7a-e36de62af80f")
 		(property "Reference" "R17"
-			(at 232.41 124.46 90)
+			(at 317.5 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +11378,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 242.57 124.46 90)
+			(at 327.66 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11386,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 237.49 125.73 0)
+			(at 322.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +11395,7 @@
 			)
 		)
 		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/CarbonFilmresistors.pdf"
-			(at 237.49 125.73 0)
+			(at 322.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +11404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 125.73 0)
+			(at 322.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,7 +11493,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:R_0.125W")
-		(at 223.52 137.16 270)
+		(at 342.9 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11959,7 +11501,7 @@
 		(dnp no)
 		(uuid "b6a2e156-7bae-4d67-939d-2fe02178bf47")
 		(property "Reference" "R16"
-			(at 218.44 135.89 90)
+			(at 337.82 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,7 +11509,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 228.6 135.89 90)
+			(at 347.98 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11975,7 +11517,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 223.52 137.16 0)
+			(at 342.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +11526,7 @@
 			)
 		)
 		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/CarbonFilmresistors.pdf"
-			(at 223.52 137.16 0)
+			(at 342.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +11535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 137.16 0)
+			(at 342.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +11895,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:C")
-		(at 208.28 137.16 90)
+		(at 327.66 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12362,7 +11904,7 @@
 		(fields_autoplaced yes)
 		(uuid "da6d97ae-b665-4346-b81d-6669ac6be5e8")
 		(property "Reference" "C3"
-			(at 208.28 129.54 90)
+			(at 327.66 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +11912,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 208.28 132.08 90)
+			(at 327.66 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,7 +11920,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:C_Axial_200mil"
-			(at 212.09 136.1948 0)
+			(at 331.47 147.6248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +11929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 137.16 0)
+			(at 327.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +11938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 137.16 0)
+			(at 327.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12552,7 +12094,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:C_Polarized")
-		(at 223.52 152.4 0)
+		(at 342.9 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12561,7 +12103,7 @@
 		(fields_autoplaced yes)
 		(uuid "e54f22de-dc20-4b01-a542-6485c2d0fbba")
 		(property "Reference" "C1"
-			(at 227.33 150.495 0)
+			(at 346.71 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,7 +12112,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 227.33 153.035 0)
+			(at 346.71 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12121,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:CP_Radial_Tantal200mil"
-			(at 223.52 152.4 0)
+			(at 342.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 152.4 0)
+			(at 342.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 152.4 0)
+			(at 342.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12163,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:C_Polarized")
-		(at 233.68 152.4 0)
+		(at 353.06 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12630,7 +12172,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5e62d97-1696-4633-8467-aac9988f19c5")
 		(property "Reference" "C2"
-			(at 237.49 150.495 0)
+			(at 356.87 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +12181,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 237.49 153.035 0)
+			(at 356.87 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +12190,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:CP_Radial_Tantal200mil"
-			(at 233.68 152.4 0)
+			(at 353.06 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +12199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 152.4 0)
+			(at 353.06 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,7 +12208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 152.4 0)
+			(at 353.06 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,80 +12231,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:HeadphoneJack")
-		(at 172.72 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee961f2f-9a8b-420a-80ad-7173778668da")
-		(property "Reference" "J1"
-			(at 177.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AudioJack"
-			(at 177.8 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECE319K:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
-			(at 170.18 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.466 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "R"
-			(uuid "ef4f51a5-f5c8-4272-89fe-7730369bde1b")
-		)
-		(pin "S"
-			(uuid "7eda18da-01ef-4c96-a10d-f9b656dd45f7")
-		)
-		(pin "T"
-			(uuid "aad78ddf-3511-4dbf-a370-929a39df7817")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 151.13 20.32 0)
+		(at 144.78 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12770,7 +12240,7 @@
 		(dnp no)
 		(uuid "eefe244f-123b-4fbb-8e82-2955b8566593")
 		(property "Reference" "#PWR02"
-			(at 151.13 24.13 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12779,7 +12249,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.32 19.05 0)
+			(at 140.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 20.32 0)
+			(at 144.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +12266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 20.32 0)
+			(at 144.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 20.32 0)
+			(at 144.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,145 +12676,6 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE319K:Testpoint")
-		(at 162.56 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd2c7150-9102-4a5a-b074-8a0452f1d880")
-		(property "Reference" "TP1"
-			(at 162.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 165.1 21.9074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECE319K:Testpoint_1x02_P2.54mm"
-			(at 162.56 19.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c024708-d7c3-4f7d-ba2f-9b5d857a20b0")
-		)
-		(pin "2"
-			(uuid "6c899a67-8a4e-4074-aaf1-413d3b417bc4")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE319K:Testpoint")
-		(at 179.705 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff27f87c-b57d-4ca7-9cb9-336beae893b9")
-		(property "Reference" "J4"
-			(at 180.975 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "Pot"
-			(at 183.515 62.5474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECE319K:Testpoint_1x02_P2.54mm"
-			(at 179.705 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.705 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.705 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7d3fce7-2ca8-42a6-9097-5584146810fa")
-		)
-		(pin "2"
-			(uuid "cb7228f1-2ee7-41a5-b911-9d6ebadc614f")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "J4")
 					(unit 1)
 				)
 			)
