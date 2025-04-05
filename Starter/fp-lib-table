@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECE319K")(type "KiCad")(uri "C:/Users/Ravi/Git/PCBCamp/ECE319K.pretty")(options "")(descr ""))
+)

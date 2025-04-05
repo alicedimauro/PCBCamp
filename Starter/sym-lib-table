@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ECE319H")(type "KiCad")(uri "C:/Users/Ravi/Git/PCBCamp/ECE319K.kicad_sym")(options "")(descr ""))
+  (lib (name "ECE319K")(type "KiCad")(uri "C:/Users/Ravi/Git/PCBCamp/ECE319K.kicad_sym")(options "")(descr ""))
 )
