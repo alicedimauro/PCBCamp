@@ -6281,18 +6281,7 @@
 		)
 		(uuid "0b499761-a4b6-412d-a522-f359d346b633")
 	)
-	(text "i like the transistor choice :)"
-		(exclude_from_sim no)
-		(at 321.564 156.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 11 18 1)
-			)
-		)
-		(uuid "0bd9c15a-0af5-492d-ae47-761bab4010b7")
-	)
-	(text "Layout considerations:\n1.) GND plane\n2.) Short traces on SPI and PWM (high freq)\n3.) Separate analog/digital GND planes (noise - is that possible?)\n4.) Test points for UART TX/RX, ADC input, PWM (sry ik i fought against it\nbut I changed my mind now)\n5.) ergo button placement for easy access when holding board\n6.) So tempted to 3d print an enclosure \n7.) COPPER NAMES PLEASE, also def black idc how much it costs"
+	(text "Layout considerations:\n1.) GND plane\n2.) Short traces on SPI and PWM (high freq)\n3.) This is a strettch but separate analog/digital GND planes (against noise - is that possible?)\n4.) Test points for UART TX/RX, ADC input, PWM (sry ik i fought against it\nbut it would be helpful lol)\n5.) ergo button placement for easy access when holding board\n6.) So tempted to 3d print an enclosure \n7.) can be put our names in copper pleaseeee\n8.) we are 100% ordering this in black idc how much it costs"
 		(exclude_from_sim no)
 		(at 67.056 26.416 0)
 		(effects
@@ -6338,9 +6327,9 @@
 		)
 		(uuid "4657ac36-e4fa-45a2-8f9a-40d6e8530f88")
 	)
-	(text "flyback against\nback EMF"
+	(text "flyback \nagainst\nback EMF"
 		(exclude_from_sim no)
-		(at 302.006 128.016 0)
+		(at 301.244 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6358,17 +6347,6 @@
 			)
 		)
 		(uuid "54785ea6-79fa-46cc-92e2-5aeb41a54abe")
-	)
-	(text "check no conflicts arise\nfrom shared peripheral \n(UART pins for both comm and other funcs.)"
-		(exclude_from_sim no)
-		(at 36.576 116.078 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 16 28 1)
-			)
-		)
-		(uuid "5c7102df-e960-4b70-9f30-22694e44a6da")
 	)
 	(text "COM floating"
 		(exclude_from_sim no)
@@ -6438,7 +6416,7 @@
 		)
 		(uuid "868ec5f7-b158-466d-9a2d-c502fba5a162")
 	)
-	(text "pull up\nfor signal integrity?\nI'll check bc no connects\nis prob sufficient"
+	(text "double check this pinout"
 		(exclude_from_sim no)
 		(at 137.16 106.68 0)
 		(effects
@@ -6542,9 +6520,9 @@
 		)
 		(uuid "da14d0fe-35a2-45de-a690-a7c595bc595b")
 	)
-	(text "Additions:\n1.) test points for critical signals (mb ik i fought against\nUART TX/RX, ADC input, PWM output)\n2.) Decoupling caps more?\n3.) EEPROM to save high\nscores even when power is lost - this is a bit of a stretch"
+	(text "Additions:\n1.) test points for critical signals (mb ik i fought against\nUART TX/RX, ADC input, PWM output)\n2.) EEPROM to save high\nscores even when power is lost - this is a bit of a stretch\n3.) More decoupling caps? especially if using EEPROM\n4.) Need to go in and change footprints/add mouser details for BOM"
 		(exclude_from_sim no)
-		(at 68.58 55.626 0)
+		(at 62.992 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6598,7 +6576,7 @@
 	)
 	(text "yay switch debouncing"
 		(exclude_from_sim no)
-		(at 205.486 115.062 0)
+		(at 206.248 113.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
