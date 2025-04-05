@@ -6438,7 +6438,7 @@
 		)
 		(uuid "868ec5f7-b158-466d-9a2d-c502fba5a162")
 	)
-	(text "pull up resistors needed\nfor signal integrity?\nI'll check bc I think just no\nconnects is sufficient tho"
+	(text "pull up\nfor signal integrity?\nI'll check bc no connects\nis prob sufficient"
 		(exclude_from_sim no)
 		(at 137.16 106.68 0)
 		(effects
