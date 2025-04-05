@@ -6593,7 +6593,7 @@
 	)
 	(text "break out any remaining pins here"
 		(exclude_from_sim no)
-		(at 357.124 35.56 0)
+		(at 341.884 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6646,7 +6646,7 @@
 	)
 	(text "do we even need this?"
 		(exclude_from_sim no)
-		(at 334.264 64.008 0)
+		(at 313.944 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6964,7 +6964,7 @@
 		(uuid "469083bd-6f5a-4961-b6f4-adab39f9058c")
 	)
 	(junction
-		(at 327.66 57.15)
+		(at 307.34 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b923d98-f903-4eca-b87d-b486be8c8d29")
@@ -7136,14 +7136,6 @@
 		(uuid "007c86fd-1f71-4b8c-8826-e5a0feed2551")
 	)
 	(no_connect
-		(at 76.2 78.74)
-		(uuid "0bd19615-2faf-42e7-88d1-d1b430c72607")
-	)
-	(no_connect
-		(at 76.2 73.66)
-		(uuid "0d3452d8-440b-4c99-b3ec-76a015c24e24")
-	)
-	(no_connect
 		(at 123.19 97.79)
 		(uuid "14157c21-5429-4bd4-9b1e-0c806c759410")
 	)
@@ -7184,10 +7176,6 @@
 		(uuid "539b192f-30fc-47dd-a131-e59ed393fb50")
 	)
 	(no_connect
-		(at 76.2 81.28)
-		(uuid "5ad09280-2edd-4b9a-9d01-664a8974322c")
-	)
-	(no_connect
 		(at 40.64 64.77)
 		(uuid "5e1285f6-5ea6-46f2-800a-22b3b1a783c3")
 	)
@@ -7198,10 +7186,6 @@
 	(no_connect
 		(at 143.51 102.87)
 		(uuid "66e16a0c-c7e3-421e-96df-43f577340b6c")
-	)
-	(no_connect
-		(at 76.2 90.17)
-		(uuid "73672039-ce22-4c53-a181-5c4397e3145d")
 	)
 	(no_connect
 		(at 123.19 95.25)
@@ -7254,10 +7238,6 @@
 	(no_connect
 		(at 143.51 95.25)
 		(uuid "fd111c97-b4c2-40c3-a0eb-86be39f2aa85")
-	)
-	(no_connect
-		(at 76.2 87.63)
-		(uuid "fdf578f4-e457-490f-bdc7-36d9f80c6563")
 	)
 	(wire
 		(pts
@@ -7341,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 57.15) (xy 327.66 60.96)
+			(xy 307.34 58.42) (xy 307.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7518,6 +7498,16 @@
 			(type default)
 		)
 		(uuid "1b6dde36-40c5-4f1e-9d61-678da82a0995")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2382e0-e503-4cae-b32e-ea9ffaf21378")
 	)
 	(wire
 		(pts
@@ -8081,7 +8071,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 49.53) (xy 341.63 49.53)
+			(xy 311.15 50.8) (xy 321.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8281,6 +8271,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 90.17) (xy 86.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705e231c-32e4-4461-972e-2fc80638d3a7")
+	)
+	(wire
+		(pts
 			(xy 195.58 153.67) (xy 195.58 171.45)
 		)
 		(stroke
@@ -8298,6 +8298,26 @@
 			(type default)
 		)
 		(uuid "7199a887-2256-4d5d-980f-3f2cb76ae4fc")
+	)
+	(wire
+		(pts
+			(xy 76.2 87.63) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e48372-87b0-4ef8-9c8a-d372cb86cf0b")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734bf05a-b7d3-4e6c-b7c9-6cf6ee4f652f")
 	)
 	(wire
 		(pts
@@ -8331,7 +8351,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 39.37) (xy 327.66 39.37)
+			(xy 314.96 40.64) (xy 307.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8851,7 +8871,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 55.88) (xy 327.66 57.15)
+			(xy 307.34 57.15) (xy 307.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8931,6 +8951,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67860ed-3332-42f3-82fa-b6560593eb72")
+	)
+	(wire
+		(pts
 			(xy 205.74 190.5) (xy 205.74 191.77)
 		)
 		(stroke
@@ -8991,7 +9021,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 39.37) (xy 327.66 43.18)
+			(xy 307.34 40.64) (xy 307.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9579,6 +9609,26 @@
 		)
 		(uuid "16bd027e-0cd7-4599-86ba-83da3c326eda")
 	)
+	(label "PB13"
+		(at 204.47 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f79c431-a955-4fd2-b477-220fddcc4ac2")
+	)
+	(label "PB12"
+		(at 214.63 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2090322e-0e0e-41dd-af32-e91937a05c88")
+	)
 	(label "SPI_MOSI"
 		(at 100.33 154.94 0)
 		(effects
@@ -9598,6 +9648,16 @@
 			(justify left bottom)
 		)
 		(uuid "29d473ce-3aff-4fbf-86ad-9e07c305fcff")
+	)
+	(label "PB19"
+		(at 173.99 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2eaef9f7-c739-4a06-946d-503c6e44ac19")
 	)
 	(label "I2C_SDA"
 		(at 271.78 170.18 0)
@@ -9629,6 +9689,16 @@
 		)
 		(uuid "392f0a03-fe00-4439-aa19-bf39e6b23f53")
 	)
+	(label "PB13"
+		(at 86.36 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a10746f-23a7-4ad5-93d2-6c43f1080eff")
+	)
 	(label "PA16"
 		(at 247.65 60.96 180)
 		(effects
@@ -9648,6 +9718,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c9d059d-6db9-4697-9571-55f57e2cb4cb")
+	)
+	(label "PB16"
+		(at 194.31 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dff5260-9942-4ced-b897-6919af43f4f1")
 	)
 	(label "MTR_PWM"
 		(at 86.36 106.68 180)
@@ -9780,7 +9860,7 @@
 		(uuid "6110941d-ab2f-45ad-a664-0b5fcefcd66a")
 	)
 	(label "PB20"
-		(at 341.63 49.53 180)
+		(at 321.31 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9810,7 +9890,7 @@
 		(uuid "79e13b7d-fd2a-4f13-97e9-2a607c7b48ff")
 	)
 	(label "PB18"
-		(at 335.28 39.37 180)
+		(at 314.96 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9909,6 +9989,26 @@
 		)
 		(uuid "ac5867db-1187-472f-a173-a53c4df208b9")
 	)
+	(label "PB17"
+		(at 86.36 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3bb799d-0867-4a35-864f-b2d83dd5883f")
+	)
+	(label "PB19"
+		(at 86.36 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b456d4e3-74c1-4576-9a6c-39937ac996b2")
+	)
 	(label "PB18"
 		(at 165.1 48.26 180)
 		(effects
@@ -9959,6 +10059,16 @@
 		)
 		(uuid "cdf50895-3ff7-49d1-873d-afbef146af27")
 	)
+	(label "PB16"
+		(at 86.36 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8492730-a2e6-460a-b097-27f2487aee01")
+	)
 	(label "UART2_RX"
 		(at 134.62 45.72 180)
 		(effects
@@ -9978,6 +10088,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc57b8dd-2ec4-42a9-907d-3715ab5b6d2f")
+	)
+	(label "PB17"
+		(at 184.15 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7707328-d967-400f-9c9e-4597c950df6d")
 	)
 	(label "DAC1"
 		(at 29.21 76.2 0)
@@ -10018,6 +10138,16 @@
 			(justify left bottom)
 		)
 		(uuid "f79fcd5f-af11-44db-b533-73dd37fdd3a9")
+	)
+	(label "PB12"
+		(at 86.36 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb2b7622-8544-4adb-93d7-e938da6679c3")
 	)
 	(label "PB20"
 		(at 86.36 71.12 180)
@@ -10122,7 +10252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ECE319K:SW_PUSH_6mm"
+		(property "Footprint" ""
 			(at 247.65 53.34 0)
 			(effects
 				(font
@@ -10191,7 +10321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 267.97 120.65 0)
 			(effects
 				(font
@@ -10304,7 +10434,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:Jumper_3_Open")
-		(at 327.66 49.53 90)
+		(at 307.34 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10313,7 +10443,7 @@
 		(fields_autoplaced yes)
 		(uuid "17bf4c8c-9692-4cca-ad30-268292462e88")
 		(property "Reference" "JP1"
-			(at 325.12 48.26 90)
+			(at 304.8 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10452,7 @@
 			)
 		)
 		(property "Value" "TExaS"
-			(at 325.12 50.8 90)
+			(at 304.8 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10461,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:PinHeader_1x03_P2.54mm_Vertical"
-			(at 327.66 49.53 0)
+			(at 307.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 49.53 0)
+			(at 307.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 49.53 0)
+			(at 307.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +10595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 186.69 60.96 0)
 			(effects
 				(font
@@ -10532,7 +10662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 50.8 168.91 0)
 			(effects
 				(font
@@ -10601,7 +10731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 184.15 110.49 0)
 			(effects
 				(font
@@ -10670,7 +10800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -10739,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 228.6 67.31 0)
 			(effects
 				(font
@@ -10808,7 +10938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" ""
 			(at 205.74 116.84 0)
 			(effects
 				(font
@@ -10876,7 +11006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 263.8552 195.58 0)
 			(effects
 				(font
@@ -11010,7 +11140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ECE319K:SW_PUSH_6mm"
+		(property "Footprint" ""
 			(at 223.52 53.34 0)
 			(effects
 				(font
@@ -11079,7 +11209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -11145,7 +11275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 259.08 60.96 0)
 			(effects
 				(font
@@ -11567,7 +11697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" ""
 			(at 205.74 166.37 0)
 			(effects
 				(font
@@ -11699,7 +11829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 326.0852 195.58 0)
 			(effects
 				(font
@@ -11768,7 +11898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" ""
 			(at 195.58 116.84 0)
 			(effects
 				(font
@@ -11837,7 +11967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" ""
 			(at 215.9 116.84 0)
 			(effects
 				(font
@@ -11880,7 +12010,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 355.6 50.8 0)
+		(at 340.36 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11889,7 +12019,7 @@
 		(fields_autoplaced yes)
 		(uuid "45b2f68f-24b7-41e6-9ffe-f54057d4f385")
 		(property "Reference" "J5"
-			(at 356.235 38.1 0)
+			(at 340.995 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,7 +12027,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 356.235 40.64 0)
+			(at 340.995 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +12035,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 355.6 50.8 0)
+			(at 340.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +12044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 355.6 50.8 0)
+			(at 340.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +12053,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 355.6 50.8 0)
+			(at 340.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" ""
 			(at 185.42 116.84 0)
 			(effects
 				(font
@@ -12551,7 +12681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 218.1352 71.12 0)
 			(effects
 				(font
@@ -12816,7 +12946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -12950,7 +13080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ECE319K:SW_PUSH_6mm"
+		(property "Footprint" ""
 			(at 175.26 53.34 0)
 			(effects
 				(font
@@ -13019,7 +13149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 281.94 165.1 0)
 			(effects
 				(font
@@ -13309,7 +13439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" ""
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -13449,7 +13579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 194.0052 71.12 0)
 			(effects
 				(font
@@ -13517,7 +13647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 106.9848 40.64 0)
 			(effects
 				(font
@@ -13716,7 +13846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 180.34 67.31 0)
 			(effects
 				(font
@@ -14049,7 +14179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 50.8 148.59 0)
 			(effects
 				(font
@@ -14109,7 +14239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "470"
 			(at 176.53 111.7599 0)
 			(effects
 				(font
@@ -14118,7 +14248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 173.99 110.49 0)
 			(effects
 				(font
@@ -14250,7 +14380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 266.3952 71.12 0)
 			(effects
 				(font
@@ -14319,7 +14449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" ""
 			(at 146.05 85.09 0)
 			(effects
 				(font
@@ -14388,7 +14518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 338.7852 195.58 0)
 			(effects
 				(font
@@ -14522,7 +14652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 242.2652 71.12 0)
 			(effects
 				(font
@@ -14848,7 +14978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 205.74 153.67 0)
 			(effects
 				(font
@@ -14981,7 +15111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 285.75 160.02 0)
 			(effects
 				(font
@@ -15050,7 +15180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 252.73 67.31 0)
 			(effects
 				(font
@@ -15184,7 +15314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 204.47 110.49 0)
 			(effects
 				(font
@@ -15457,7 +15587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 210.82 60.96 0)
 			(effects
 				(font
@@ -15588,7 +15718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 190.5 171.45 0)
 			(effects
 				(font
@@ -15631,7 +15761,7 @@
 	)
 	(symbol
 		(lib_id "ECE319K:Testpoint")
-		(at 327.66 59.055 270)
+		(at 307.34 60.325 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15640,7 +15770,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6acb431-ed4f-4eb7-93c1-b1d1daa3c220")
 		(property "Reference" "J7"
-			(at 332.74 59.055 0)
+			(at 312.42 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15649,7 +15779,7 @@
 			)
 		)
 		(property "Value" "DACOUT"
-			(at 332.74 59.0549 90)
+			(at 312.42 60.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15658,7 +15788,7 @@
 			)
 		)
 		(property "Footprint" "ECE319K:Testpoint_1x02_P2.54mm"
-			(at 333.375 59.055 0)
+			(at 313.055 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +15797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 59.055 0)
+			(at 307.34 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15676,7 +15806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 59.055 0)
+			(at 307.34 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +16050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 194.31 110.49 0)
 			(effects
 				(font
@@ -15987,7 +16117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -16053,7 +16183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 52.07 186.69 0)
 			(effects
 				(font
@@ -16120,7 +16250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 184.15 170.4848 0)
 			(effects
 				(font
@@ -16318,7 +16448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:CP_Radial_Tantal200mil"
+		(property "Footprint" ""
 			(at 171.45 181.61 0)
 			(effects
 				(font
@@ -16378,7 +16508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "S1A"
 			(at 281.94 113.0299 90)
 			(effects
 				(font
@@ -16387,7 +16517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -16472,7 +16602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:CP_Radial_Tantal200mil"
+		(property "Footprint" ""
 			(at 185.42 180.34 0)
 			(effects
 				(font
@@ -16864,7 +16994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -16933,7 +17063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 294.3352 115.57 0)
 			(effects
 				(font
@@ -17131,7 +17261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:DIP-16_W7.62mm"
+		(property "Footprint" ""
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -17252,7 +17382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 271.4752 195.58 0)
 			(effects
 				(font
@@ -17385,7 +17515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ECE319K:SW_PUSH_6mm"
+		(property "Footprint" ""
 			(at 199.39 53.34 0)
 			(effects
 				(font
@@ -17451,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 52.07 177.8 0)
 			(effects
 				(font
