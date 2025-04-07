@@ -670,6 +670,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4001"
 			(pin_numbers
 				(hide yes)
@@ -5930,17 +6037,6 @@
 		)
 		(uuid e7ee13cd-7800-4cbd-8096-32471be1b5b0)
 	)
-	(text "check match I2C\nspeed req."
-		(exclude_from_sim no)
-		(at 293.116 188.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 18 25 1)
-			)
-		)
-		(uuid "08b99dca-7943-4f63-b00b-fbd21338bce0")
-	)
 	(text "Extra"
 		(exclude_from_sim no)
 		(at 373.634 18.542 0)
@@ -5977,16 +6073,6 @@
 		)
 		(uuid "4657ac36-e4fa-45a2-8f9a-40d6e8530f88")
 	)
-	(text "flyback \nagainst\nback EMF"
-		(exclude_from_sim no)
-		(at 301.244 131.826 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e31674f-e1f0-42a2-8119-87e35febbe08")
-	)
 	(text "check IMU"
 		(exclude_from_sim no)
 		(at 302.514 201.168 0)
@@ -6022,7 +6108,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 281.94 174.752 0)
+		(at 271.272 175.006 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -6034,7 +6120,7 @@
 	)
 	(text "IR Transmitter"
 		(exclude_from_sim no)
-		(at 138.43 97.028 0)
+		(at 134.366 92.456 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -6446,10 +6532,6 @@
 		(uuid "94532d36-99bf-4170-87e1-6fced056b0db")
 	)
 	(no_connect
-		(at 353.06 45.72)
-		(uuid "9d7bd2cb-2ec0-4d1b-9d07-ce8686b1294a")
-	)
-	(no_connect
 		(at 349.25 200.66)
 		(uuid "a40c5ec4-de00-4713-8383-d72554e5b8f7")
 	)
@@ -6577,6 +6659,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 71.12) (xy 322.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c6f7f1-421d-4646-a557-b26390b483ac")
+	)
+	(wire
+		(pts
 			(xy 228.6 127) (xy 228.6 134.62)
 		)
 		(stroke
@@ -6634,6 +6726,16 @@
 			(type default)
 		)
 		(uuid "13533275-9fdb-45b8-80c5-ab50f46e9964")
+	)
+	(wire
+		(pts
+			(xy 353.06 45.72) (xy 361.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146ee499-a423-4eae-a598-95979e773556")
 	)
 	(wire
 		(pts
@@ -6967,6 +7069,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 71.12) (xy 334.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399b1ad0-d682-49f9-a60e-a4dbce60f9bc")
+	)
+	(wire
+		(pts
 			(xy 173.99 80.01) (xy 173.99 82.55)
 		)
 		(stroke
@@ -7014,6 +7126,16 @@
 			(type default)
 		)
 		(uuid "3bbed490-f26e-4612-94fe-85e0b3feeb2b")
+	)
+	(wire
+		(pts
+			(xy 312.42 72.39) (xy 312.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be25d23-0571-4686-b9f6-b05afd9d2513")
 	)
 	(wire
 		(pts
@@ -8337,6 +8459,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 71.12) (xy 347.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02f2ae3-9d26-4879-8153-36de3a9621c3")
+	)
+	(wire
+		(pts
 			(xy 195.58 90.17) (xy 199.39 90.17)
 		)
 		(stroke
@@ -8975,6 +9107,16 @@
 		)
 		(uuid "824827a4-955e-4fae-b0df-8f9e01c99edb")
 	)
+	(label "PB20"
+		(at 361.95 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8847bfaf-f6ab-4cfc-9018-780afe3eb8f6")
+	)
 	(label "SPI_MISO"
 		(at 127 204.47 0)
 		(effects
@@ -9014,6 +9156,16 @@
 			(justify right bottom)
 		)
 		(uuid "a0692e6b-542d-46e8-9e08-27ed4d4e0f04")
+	)
+	(label "UART1_TX"
+		(at 334.01 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27ff13f-be15-49c8-83a7-5275749a9e45")
 	)
 	(label "DAC4"
 		(at 67.31 109.22 180)
@@ -9124,6 +9276,16 @@
 			(justify left bottom)
 		)
 		(uuid "cdf50895-3ff7-49d1-873d-afbef146af27")
+	)
+	(label "UART2_RX"
+		(at 347.98 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d38820c1-4aa1-4910-8380-f6af76d1e170")
 	)
 	(label "PB1"
 		(at 361.95 27.94 180)
@@ -9520,7 +9682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 			(at 334.01 138.176 0)
 			(effects
 				(font
@@ -9539,6 +9701,24 @@
 			)
 		)
 		(property "Description" "DC Motor"
+			(at 334.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "316040001"
+			(at 334.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Seeed-Studio/316040001?qs=SElPoaY2y5JJal4VOfmXrg%3D%3D&mgh=1&gQT=1"
 			(at 334.01 135.89 0)
 			(effects
 				(font
@@ -10200,6 +10380,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 312.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a80fc7e-3b11-4b72-886f-d74723848f66")
+		(property "Reference" "#PWR0119"
+			(at 312.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "878c1597-cb50-4871-a7de-bf87d644b2c6")
+		)
+		(instances
+			(project "Starter"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECE319K:C")
 		(at 289.56 217.17 0)
 		(unit 1)
@@ -10385,6 +10630,140 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 334.01 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "319f9051-5f33-4a70-95b3-498a6f380cc4")
+		(property "Reference" "TP3"
+			(at 336.55 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART1_TX"
+			(at 336.55 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 339.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 334.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eedac626-1c25-46f7-9897-cddb82ee7b52")
+		)
+		(instances
+			(project "Starter"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 322.58 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3285426f-1733-4b22-bbd4-af31c4c04d1a")
+		(property "Reference" "TP2"
+			(at 325.12 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3"
+			(at 325.12 79.5019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 317.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 322.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60c6df2d-2bfa-4cfb-a05f-5afd4444971f")
+		)
+		(instances
+			(project "Starter"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10583,7 +10962,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 156.21 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10638,6 +11017,70 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 322.58 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "369eae22-95be-445c-8e70-5a4ad92fa324")
+		(property "Reference" "#PWR025"
+			(at 322.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 322.326 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e58fb445-28a3-4476-af9b-5ca79567f33a")
+		)
+		(instances
+			(project "Starter"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11809,6 +12252,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser #" "MMBT2222A"
+			(at 303.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/MMBT2222A?qs=OlC7AqGiEDl9N1c3%252BL%2F%252Brw%3D%3D"
+			(at 303.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e54efdde-5d26-4539-a512-65ba2556033d")
 		)
@@ -12306,7 +12767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 			(at 251.46 205.74 0)
 			(effects
 				(font
@@ -13666,7 +14127,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 143.51 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13851,6 +14312,73 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 347.98 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "820a7f05-c4ab-469e-831b-e76441be3977")
+		(property "Reference" "TP4"
+			(at 350.52 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART2_RX"
+			(at 350.52 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 353.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 347.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9133111a-9817-43b9-92e0-3840e3d8d252")
+		)
+		(instances
+			(project "Starter"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14050,7 +14578,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 149.86 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15763,7 +16291,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 137.16 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -16395,6 +16923,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 312.42 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def339fa-70ff-4eb4-b1e2-813fa9f619b4")
+		(property "Reference" "TP1"
+			(at 314.96 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 317.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 312.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3579761f-2d37-4481-be60-6b50fb763ee3")
+		)
+		(instances
+			(project ""
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 148.59 0)
 		(unit 1)
@@ -16487,7 +17082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 306.07 137.16 0)
 			(effects
 				(font
@@ -16524,6 +17119,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 306.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "512-S1A"
+			(at 306.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/S1A?qs=RJwZ8kJo1mjAagviH5vK9g%3D%3D"
 			(at 306.07 137.16 0)
 			(effects
 				(font
