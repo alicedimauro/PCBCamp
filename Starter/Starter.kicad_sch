@@ -6037,6 +6037,17 @@
 		)
 		(uuid e7ee13cd-7800-4cbd-8096-32471be1b5b0)
 	)
+	(text "double checkout footprint pinout"
+		(exclude_from_sim no)
+		(at 222.504 224.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 17 36 1)
+			)
+		)
+		(uuid "028a4ea5-630e-4bc5-9139-16cb9d0d4428")
+	)
 	(text "Extra"
 		(exclude_from_sim no)
 		(at 373.634 18.542 0)
@@ -6095,6 +6106,17 @@
 		)
 		(uuid "54785ea6-79fa-46cc-92e2-5aeb41a54abe")
 	)
+	(text "two solder pads; edit in layout"
+		(exclude_from_sim no)
+		(at 261.366 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 17 1)
+			)
+		)
+		(uuid "61fbfa99-15e2-440b-8eff-36f96d4ca73d")
+	)
 	(text "COM floating"
 		(exclude_from_sim no)
 		(at 163.068 111.252 0)
@@ -6152,6 +6174,47 @@
 		)
 		(uuid "868ec5f7-b158-466d-9a2d-c502fba5a162")
 	)
+	(text "Audio amplifier reference: \nhttps://www.snapeda.com/parts/MC34119/NXP%20Semiconductors/view-part/"
+		(exclude_from_sim no)
+		(at 155.702 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86ec89c4-5747-435f-aa5c-91b0517f67cc")
+	)
+	(text "Reference:\nhttps://www.snapeda.com/parts/ULN2003BDR/Texas%20Instruments/view-part/?company=UTAustin&amp;welcome=home&amp;ref=search&amp;t=ULN2003B"
+		(exclude_from_sim no)
+		(at 159.512 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98cf17ba-1412-45ad-91f9-a7a5aee66340")
+	)
+	(text "Transistor reference:\nhttps://www.snapeda.com/parts/MMBT2222A/Diotec%20Semiconductor/view-part/?ref=search&t=MMBT2222A"
+		(exclude_from_sim no)
+		(at 154.94 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a94b348-027d-4543-98ca-3e5fa37029c1")
+	)
+	(text "two solder pads; edit in layout"
+		(exclude_from_sim no)
+		(at 354.838 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 17 1)
+			)
+		)
+		(uuid "9ae9fa37-ae76-4038-9b77-c9b672e0cb8f")
+	)
 	(text "MSPM0G3507 LaunchPad"
 		(exclude_from_sim no)
 		(at 69.342 72.39 0)
@@ -6175,6 +6238,17 @@
 			)
 		)
 		(uuid "a17e1cf6-d386-4ee5-9158-a72ec0b85945")
+	)
+	(text "footprint check"
+		(exclude_from_sim no)
+		(at 139.954 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "ac2f4c5b-fa30-4f15-ab9d-af1272f98156")
 	)
 	(text "VLogic Bypass"
 		(exclude_from_sim no)
@@ -6221,6 +6295,16 @@
 			)
 		)
 		(uuid "d4c72340-ac45-4dcd-8f09-a5076d14c409")
+	)
+	(text "mounting hole footprint\nfrom ECE319K library"
+		(exclude_from_sim no)
+		(at 266.446 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9f02da2-b22a-458b-9ebc-07b9b1ccc5ab")
 	)
 	(text "IR Receiver"
 		(exclude_from_sim no)
@@ -10986,7 +11070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:MountingHole_4_40"
 			(at 261.62 156.21 0)
 			(effects
 				(font
@@ -11005,6 +11089,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 261.62 156.21 0)
 			(effects
 				(font
@@ -11496,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:SO08"
 			(at 232.41 191.77 0)
 			(effects
 				(font
@@ -11559,6 +11670,33 @@
 			)
 		)
 		(property "Cost" "N/A"
+			(at 232.41 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 232.41 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 232.41 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 232.41 201.93 0)
 			(effects
 				(font
@@ -12198,7 +12336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:SOT95P240X120-3N"
 			(at 367.03 152.4 0)
 			(effects
 				(font
@@ -12262,6 +12400,15 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/MMBT2222A?qs=OlC7AqGiEDl9N1c3%252BL%2F%252Brw%3D%3D"
+			(at 303.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 303.53 152.4 0)
 			(effects
 				(font
@@ -14151,7 +14298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:MountingHole_4_40"
 			(at 261.62 143.51 0)
 			(effects
 				(font
@@ -14170,6 +14317,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 261.62 143.51 0)
 			(effects
 				(font
@@ -14602,7 +14776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:MountingHole_4_40"
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -14621,6 +14795,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -16315,7 +16516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:MountingHole_4_40"
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -16334,6 +16535,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -17832,7 +18060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECE319K:SOIC127P600X175-16N"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -17850,7 +18078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Same"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -17865,6 +18093,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/STMicroelectronics/ULN2003D1013TR?qs=YnPipOpXm6FQ98RZGZk5Pg%3D%3D"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "511-ULN2003D1013TR "
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Our datasheet" "https://www.mouser.com/datasheet/2/389/uln2001-1852702.pdf"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
