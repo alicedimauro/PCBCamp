@@ -6371,12 +6371,6 @@
 		(uuid "2869dfce-300d-4964-b9b5-a59a6dd24ea3")
 	)
 	(junction
-		(at 313.69 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29d39702-93f8-45f1-ae70-943f333f06cf")
-	)
-	(junction
 		(at 143.51 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6788,16 +6782,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 212.09) (xy 313.69 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146023d7-97a4-4722-a25b-331007b8e0c3")
-	)
-	(wire
-		(pts
 			(xy 353.06 45.72) (xy 361.95 45.72)
 		)
 		(stroke
@@ -6948,6 +6932,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 208.28) (xy 317.5 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213f55c9-b145-4ec2-ad39-7b477898fff4")
+	)
+	(wire
+		(pts
 			(xy 238.76 127) (xy 238.76 134.62)
 		)
 		(stroke
@@ -6995,16 +6989,6 @@
 			(type default)
 		)
 		(uuid "267dff26-ea84-4358-b86b-9c7351c4a9fc")
-	)
-	(wire
-		(pts
-			(xy 313.69 212.09) (xy 316.23 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27e6c997-9ec9-4438-9d96-7a380a7d5c9a")
 	)
 	(wire
 		(pts
@@ -7268,6 +7252,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 203.2) (xy 317.5 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4282a88b-32f3-44bc-9498-60c62219f166")
+	)
+	(wire
+		(pts
 			(xy 104.14 184.15) (xy 104.14 194.31)
 		)
 		(stroke
@@ -7318,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 207.01) (xy 313.69 212.09)
+			(xy 313.69 207.01) (xy 313.69 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8385,6 +8379,16 @@
 			(type default)
 		)
 		(uuid "ddf8ea43-586a-4e97-ac04-4faf7c56a46b")
+	)
+	(wire
+		(pts
+			(xy 316.23 212.09) (xy 316.23 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5065d6-8cc1-4281-8341-98387af572d6")
 	)
 	(wire
 		(pts
@@ -9464,7 +9468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 262.89 82.55 0)
 			(effects
 				(font
@@ -9499,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" "506-1977223-1 "
+		(property "Mouser #" "506-1977223-1"
 			(at 267.97 82.55 0)
 			(effects
 				(font
@@ -9815,7 +9819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "ECE319K:Testpoint_1x02_P2.54mm"
 			(at 334.01 138.176 0)
 			(effects
 				(font
@@ -9852,6 +9856,15 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Seeed-Studio/316040001?qs=SElPoaY2y5JJal4VOfmXrg%3D%3D&mgh=1&gQT=1"
+			(at 334.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 334.01 135.89 0)
 			(effects
 				(font
@@ -10767,7 +10780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 238.76 82.55 0)
 			(effects
 				(font
@@ -10802,7 +10815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" "506-1977223-1 "
+		(property "Mouser #" "506-1977223-1"
 			(at 243.84 82.55 0)
 			(effects
 				(font
@@ -11723,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:SO08"
+		(property "Footprint" "ECE319K:DIP-8_W7.62mm_LongPads"
 			(at 232.41 191.77 0)
 			(effects
 				(font
@@ -12452,7 +12465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:SOT95P240X120-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 367.03 152.4 0)
 			(effects
 				(font
@@ -12965,7 +12978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "ECE319K:Testpoint_1x02_P2.54mm"
 			(at 251.46 205.74 0)
 			(effects
 				(font
@@ -12989,6 +13002,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 251.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 251.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 251.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13418,7 +13458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 190.5 82.55 0)
 			(effects
 				(font
@@ -13453,7 +13493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" "506-1977223-1 "
+		(property "Mouser #" "506-1977223-1"
 			(at 195.58 82.55 0)
 			(effects
 				(font
@@ -14149,6 +14189,70 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 317.5 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76dc445e-6b01-492c-baf1-07a0e703969d")
+		(property "Reference" "#PWR0126"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 319.024 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "940cc248-ae80-4d23-ad51-d9a7204564c7")
+		)
+		(instances
+			(project "Starter"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -18271,7 +18375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -18306,7 +18410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" "506-1977223-1 "
+		(property "Mouser #" "506-1977223-1"
 			(at 219.71 82.55 0)
 			(effects
 				(font

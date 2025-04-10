@@ -1,4 +1,4 @@
-24960917828615487
+25001007358371660
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57266,6 +57266,167 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ECE319K
+CP_Radial_Tantal200mil
+CP, Radial_Tantal series, Radial, pin pitch=200mil, , diameter=6.0mm, Tantal Electrolytic Capacitor
+CP Radial_Tantal series Radial pin pitch 200mil  diameter 6.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+ECE319K
+C_Axial_200mil
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 5.1mm diameter 3.1mm
+0
+2
+2
+ECE319K
+DIP-8_W7.62mm_LongPads
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+8
+8
+ECE319K
+DIP-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
+ECE319K
+Jack_3.5mm_CUI_SJ1-3523N_Horizontal
+TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
+TRS audio jack stereo horizontal
+0
+3
+3
+ECE319K
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+ECE319K
+MountingHole_4_40
+Mounting Hole 0.125in
+mounting hole 0.125in 4_40
+0
+1
+1
+ECE319K
+PTA2043pot
+Bourns single-gang slide potentiometer, 20.0mm travel, https://www.bourns.com/docs/Product-Datasheets/pta.pdf
+Bourns single-gang slide potentiometer 20.0mm
+0
+3
+3
+ECE319K
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+ECE319K
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+ECE319K
+R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+ECE319K
+R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal
+Resistor, Axial_DIN0411 series, Axial, Horizontal, pin pitch=15.24mm, 1W, length*diameter=9.9*3.6mm^2
+Resistor Axial_DIN0411 series Axial Horizontal pin pitch 15.24mm 1W length 9.9mm diameter 3.6mm
+0
+2
+2
+ECE319K
+SO08
+<b>Small Outline Package 8</b><br>NS Package M08A
+
+0
+8
+8
+ECE319K
+SOIC127P600X175-16N
+
+
+0
+16
+16
+ECE319K
+SOT95P240X120-3N
+
+
+0
+3
+3
+ECE319K
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+ECE319K
+SparkfunJoystick
+https://www.sparkfun.com/products/9032
+
+0
+14
+12
+ECE319K
+TSOP31438
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+ECE319K
+Testpoint_1x02_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+ECE319K
+XDCR_ICM-42670-P
+
+
+0
+14
+14
+ECE319K
+adafruit_st7735r
+
+
+0
+10
+10
+ECE319K
+hiletgo_st7735r
+
+
+0
+16
+16
+ECE319K
+ti_LP_MSPM0G3507
+
+
+0
+40
+40
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
