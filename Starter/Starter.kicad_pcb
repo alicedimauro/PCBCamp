@@ -114,6 +114,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -458,6 +459,7 @@
 		(property "Reference" "J5"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c4c1594e-8c92-4150-ae50-72f77ae7ef56")
 			(effects
 				(font
@@ -2037,7 +2039,7 @@
 		)
 		(property "Value" "LED"
 			(at 5.525 0.25 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "555aa665-a58b-4444-86e5-7e070b0313df")
 			(effects
 				(font
@@ -2243,6 +2245,7 @@
 		(property "Reference" "U4"
 			(at -17.78 29.21 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cc8d559c-f1f2-4ce3-ac43-6a26fb59f846")
 			(effects
 				(font
@@ -2511,58 +2514,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "4c5bb88a-9bad-40b9-8be9-03ac595bb7ed")
-		)
-		(fp_text user "Up"
-			(at -1.27 -17.78 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "1e779f51-06cc-4717-adb5-ebdeee69b4e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "1"
-			(at -20.32 -25.4 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "23fc1c1f-b444-43d8-a3ed-2989889dfb41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "(127,159)"
-			(at 7.62 20.32 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b132f937-8179-4c11-a9d6-dbfb74a08508")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "(0,0)"
-			(at -13.97 -17.78 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "bf637646-6021-4de3-a03e-b4f530df96e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at -19.05 -24.13 180)
@@ -11717,6 +11668,7 @@
 		(property "Reference" "U2"
 			(at -22.86 45.72 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "dd79cd31-b00a-4ec3-98e5-0f84e7da79f4")
 			(effects
 				(font
@@ -11857,16 +11809,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "a2a76f8f-767e-45ac-b5fe-d5f202088027")
-		)
-		(fp_line
-			(start -27.94 -50.8)
-			(end 27.94 -50.8)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7b7aa180-9190-4d17-9339-428ab13a5631")
 		)
 		(fp_line
 			(start 27.94 -50.8)
@@ -16171,7 +16113,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "M1"
 			(at 0 2.33 180)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "5a80ecb7-8d18-4a2b-ac23-92423257ca99")
 			(effects
 				(font
@@ -16182,7 +16124,7 @@
 			)
 		)
 		(property "Value" "Vibration Motor"
-			(at 0 -4.87 180)
+			(at 0 1.975 180)
 			(layer "B.SilkS")
 			(uuid "1c15317a-9f11-44a8-8a10-43d1afae6515")
 			(effects
