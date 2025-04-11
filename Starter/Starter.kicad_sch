@@ -670,113 +670,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4001"
 			(pin_numbers
 				(hide yes)
@@ -6712,16 +6605,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 71.12) (xy 322.58 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09c6f7f1-421d-4646-a557-b26390b483ac")
-	)
-	(wire
-		(pts
 			(xy 228.6 127) (xy 228.6 134.62)
 		)
 		(stroke
@@ -7142,16 +7025,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 71.12) (xy 334.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399b1ad0-d682-49f9-a60e-a4dbce60f9bc")
-	)
-	(wire
-		(pts
 			(xy 173.99 80.01) (xy 173.99 82.55)
 		)
 		(stroke
@@ -7209,16 +7082,6 @@
 			(type default)
 		)
 		(uuid "3bbed490-f26e-4612-94fe-85e0b3feeb2b")
-	)
-	(wire
-		(pts
-			(xy 312.42 72.39) (xy 312.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be25d23-0571-4686-b9f6-b05afd9d2513")
 	)
 	(wire
 		(pts
@@ -8502,16 +8365,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 71.12) (xy 347.98 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f02f2ae3-9d26-4879-8153-36de3a9621c3")
-	)
-	(wire
-		(pts
 			(xy 195.58 90.17) (xy 199.39 90.17)
 		)
 		(stroke
@@ -9200,16 +9053,6 @@
 		)
 		(uuid "a0692e6b-542d-46e8-9e08-27ed4d4e0f04")
 	)
-	(label "UART1_TX"
-		(at 334.01 81.28 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a27ff13f-be15-49c8-83a7-5275749a9e45")
-	)
 	(label "DAC4"
 		(at 67.31 109.22 180)
 		(effects
@@ -9319,16 +9162,6 @@
 			(justify left bottom)
 		)
 		(uuid "cdf50895-3ff7-49d1-873d-afbef146af27")
-	)
-	(label "UART2_RX"
-		(at 347.98 81.28 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d38820c1-4aa1-4910-8380-f6af76d1e170")
 	)
 	(label "PB1"
 		(at 361.95 27.94 180)
@@ -10688,71 +10521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 312.42 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a80fc7e-3b11-4b72-886f-d74723848f66")
-		(property "Reference" "#PWR0119"
-			(at 312.42 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "878c1597-cb50-4871-a7de-bf87d644b2c6")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ECE319K:SW_Push")
 		(at 243.84 82.55 90)
 		(unit 1)
@@ -10843,140 +10611,6 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 334.01 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "319f9051-5f33-4a70-95b3-498a6f380cc4")
-		(property "Reference" "TP3"
-			(at 336.55 66.5479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UART1_TX"
-			(at 336.55 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 339.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 339.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 334.01 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eedac626-1c25-46f7-9897-cddb82ee7b52")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 322.58 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3285426f-1733-4b22-bbd4-af31c4c04d1a")
-		(property "Reference" "TP2"
-			(at 325.12 76.9619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3"
-			(at 325.12 79.5019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 317.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 322.58 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60c6df2d-2bfa-4cfb-a05f-5afd4444971f")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11199,7 +10833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 156.21 0)
 			(effects
 				(font
@@ -11257,70 +10891,6 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 322.58 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "369eae22-95be-445c-8e70-5a4ad92fa324")
-		(property "Reference" "#PWR025"
-			(at 322.58 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 322.326 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 322.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e58fb445-28a3-4476-af9b-5ca79567f33a")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14454,7 +14024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 143.51 0)
 			(effects
 				(font
@@ -14642,73 +14212,6 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 347.98 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "820a7f05-c4ab-469e-831b-e76441be3977")
-		(property "Reference" "TP4"
-			(at 350.52 66.5479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UART2_RX"
-			(at 350.52 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 353.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 347.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9133111a-9817-43b9-92e0-3840e3d8d252")
-		)
-		(instances
-			(project "Starter"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -15104,7 +14607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -15290,7 +14793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "ECE319K:LED_D5.0mm"
 			(at 172.72 110.49 0)
 			(effects
 				(font
@@ -16321,7 +15824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -17175,73 +16678,6 @@
 			(project "Starter"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 312.42 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "def339fa-70ff-4eb4-b1e2-813fa9f619b4")
-		(property "Reference" "TP1"
-			(at 314.96 67.8179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 70.3579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 317.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 312.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3579761f-2d37-4481-be60-6b50fb763ee3")
-		)
-		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
