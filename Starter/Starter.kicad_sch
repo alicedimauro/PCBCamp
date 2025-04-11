@@ -5515,17 +5515,6 @@
 		)
 		(uuid e7ee13cd-7800-4cbd-8096-32471be1b5b0)
 	)
-	(text "double checkout footprint pinout"
-		(exclude_from_sim no)
-		(at 222.504 224.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 17 36 1)
-			)
-		)
-		(uuid "028a4ea5-630e-4bc5-9139-16cb9d0d4428")
-	)
 	(text "VDDIO Bypass"
 		(exclude_from_sim no)
 		(at 270.256 184.912 0)
@@ -5570,28 +5559,6 @@
 		)
 		(uuid "59830377-a4fb-49d5-b009-0e0a6746d8c6")
 	)
-	(text "two solder pads; edit in layout"
-		(exclude_from_sim no)
-		(at 252.222 191.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 9 17 1)
-			)
-		)
-		(uuid "61fbfa99-15e2-440b-8eff-36f96d4ca73d")
-	)
-	(text "COM floating"
-		(exclude_from_sim no)
-		(at 163.068 111.252 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 14 24 1)
-			)
-		)
-		(uuid "69de1b46-655d-4f2b-b3d1-f394ba1acfd5")
-	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 271.272 175.006 0)
@@ -5615,6 +5582,17 @@
 			)
 		)
 		(uuid "72dcd61b-a2c9-4487-81c1-4b8639e6c495")
+	)
+	(text "can you check this one - only one im worried abt?\nI put snapeda link at the top.\ni verified w perplexity that i can use this as a substitute\nfor Valvano's one. Then I looked at length and width\ndimensions on the mouser order and made sure they aligned with\nour footprint (Soic-16 narrow, although i just used snapeda footprint)"
+		(exclude_from_sim no)
+		(at 150.876 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 10 43 1)
+			)
+		)
+		(uuid "788a3d10-c1e8-4a5a-8be6-c9843380092b")
 	)
 	(text " I=(5-1.2-0.5)/220 = 15 mA."
 		(exclude_from_sim no)
@@ -5668,17 +5646,6 @@
 		)
 		(uuid "9a94b348-027d-4543-98ca-3e5fa37029c1")
 	)
-	(text "two solder pads; edit in layout"
-		(exclude_from_sim no)
-		(at 354.838 143.764 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 9 17 1)
-			)
-		)
-		(uuid "9ae9fa37-ae76-4038-9b77-c9b672e0cb8f")
-	)
 	(text "MSPM0G3507 LaunchPad"
 		(exclude_from_sim no)
 		(at 69.342 72.39 0)
@@ -5702,17 +5669,6 @@
 			)
 		)
 		(uuid "a17e1cf6-d386-4ee5-9158-a72ec0b85945")
-	)
-	(text "footprint check"
-		(exclude_from_sim no)
-		(at 139.954 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 15 1)
-			)
-		)
-		(uuid "ac2f4c5b-fa30-4f15-ab9d-af1272f98156")
 	)
 	(text "Slide Pot"
 		(exclude_from_sim no)
@@ -5772,17 +5728,6 @@
 		)
 		(uuid "da14d0fe-35a2-45de-a690-a7c595bc595b")
 	)
-	(text "Additions:\n1.) test points for critical signals (mb ik i fought against\nUART TX/RX, ADC input, PWM output)\n2.) SD card\n3.) More decoupling caps?\n4.) Need to go in and change footprints/add mouser details for BOM"
-		(exclude_from_sim no)
-		(at 50.038 32.004 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 19 12 1)
-			)
-		)
-		(uuid "dc33425b-8ac9-41b0-9796-6176d51650c9")
-	)
 	(text "Speaker Amp"
 		(exclude_from_sim no)
 		(at 203.962 175.514 0)
@@ -5794,6 +5739,28 @@
 			)
 		)
 		(uuid "defc5288-d829-478c-a515-7e4db552df30")
+	)
+	(text "fill in these LED mouser parts!!"
+		(exclude_from_sim no)
+		(at 208.28 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 8 30 1)
+			)
+		)
+		(uuid "ea14b8f6-df1a-4a57-abf2-2ae6ebeae1bf")
+	)
+	(text "Can you double check this\ntransistor is a valid\nsubstitute for the previously\nspecced one as well?"
+		(exclude_from_sim no)
+		(at 307.848 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 9 1)
+			)
+		)
+		(uuid "f4bcf77c-96da-4f7b-bcef-5a42666c5087")
 	)
 	(junction
 		(at 320.04 144.78)
@@ -8883,7 +8850,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEC?qs=LTJBsG9vER03gQprIr9%2F9w%3D%3D"
 			(at 292.1 146.05 0)
 			(effects
 				(font
@@ -8892,7 +8859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW06031K00FKEC "
 			(at 292.1 146.05 0)
 			(effects
 				(font
@@ -8978,7 +8945,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZC103MAT2A?qs=pf7pOjfHGZa33S5xs7WRew%3D%3D"
 			(at 275.59 189.23 0)
 			(effects
 				(font
@@ -8987,7 +8954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZC103MAT2A "
 			(at 275.59 189.23 0)
 			(effects
 				(font
@@ -9075,7 +9042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" "316040001"
+		(property "Mouser #" "713-316040001 "
 			(at 334.01 135.89 0)
 			(effects
 				(font
@@ -9301,7 +9268,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEC?qs=LTJBsG9vER03gQprIr9%2F9w%3D%3D"
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -9310,7 +9277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW06031K00FKEC "
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -9395,7 +9362,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06033K00FKEA?qs=as8n0eYEuf4BKYpgtAtGgg%3D%3D"
 			(at 93.98 194.31 0)
 			(effects
 				(font
@@ -9404,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-3K-E3 "
 			(at 93.98 194.31 0)
 			(effects
 				(font
@@ -9491,7 +9458,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603470RFKEA?qs=2LLIXXYaQepTa3IToKeExA%3D%3D"
 			(at 208.28 137.16 0)
 			(effects
 				(font
@@ -9500,7 +9467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-470-E3 "
 			(at 208.28 137.16 0)
 			(effects
 				(font
@@ -9587,7 +9554,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603470RFKEA?qs=2LLIXXYaQepTa3IToKeExA%3D%3D"
 			(at 238.76 137.16 0)
 			(effects
 				(font
@@ -9596,7 +9563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-470-E3 "
 			(at 238.76 137.16 0)
 			(effects
 				(font
@@ -9682,7 +9649,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 309.88 207.01 0)
 			(effects
 				(font
@@ -9691,7 +9658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 309.88 207.01 0)
 			(effects
 				(font
@@ -9778,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 243.84 96.52 0)
 			(effects
 				(font
@@ -9787,7 +9754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 243.84 96.52 0)
 			(effects
 				(font
@@ -10066,7 +10033,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 219.71 96.52 0)
 			(effects
 				(font
@@ -10075,7 +10042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 219.71 96.52 0)
 			(effects
 				(font
@@ -10159,7 +10126,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEC?qs=LTJBsG9vER03gQprIr9%2F9w%3D%3D"
 			(at 274.32 90.17 0)
 			(effects
 				(font
@@ -10168,7 +10135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW06031K00FKEC "
 			(at 274.32 90.17 0)
 			(effects
 				(font
@@ -10252,7 +10219,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107BJ475KA-T?qs=PzICbMaShUfCoRlxZeLF0g%3D%3D"
 			(at 212.09 205.74 0)
 			(effects
 				(font
@@ -10261,7 +10228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "963-LMK107BJ475KA-T "
 			(at 212.09 205.74 0)
 			(effects
 				(font
@@ -10390,6 +10357,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Link" "N/A"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "N/A"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "J1_1"
@@ -10682,7 +10665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "N/A"
 			(at 232.41 201.93 0)
 			(effects
 				(font
@@ -10691,7 +10674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "N/A"
 			(at 232.41 201.93 0)
 			(effects
 				(font
@@ -10988,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107BJ225KA-T?qs=PzICbMaShUe4zNAgzYNEdQ%3D%3D"
 			(at 297.18 191.77 0)
 			(effects
 				(font
@@ -10997,7 +10980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "963-LMK107BJ225KA-T "
 			(at 297.18 191.77 0)
 			(effects
 				(font
@@ -11697,7 +11680,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -11706,7 +11689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -11793,7 +11776,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "N/A"
 			(at 251.46 200.66 0)
 			(effects
 				(font
@@ -11802,7 +11785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "N/A"
 			(at 251.46 200.66 0)
 			(effects
 				(font
@@ -11954,7 +11937,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
 			(at 198.12 207.01 0)
 			(effects
 				(font
@@ -11963,7 +11946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "963-LMK107B7105KA-T "
 			(at 198.12 207.01 0)
 			(effects
 				(font
@@ -12047,7 +12030,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEC?qs=LTJBsG9vER03gQprIr9%2F9w%3D%3D"
 			(at 250.19 90.17 0)
 			(effects
 				(font
@@ -12056,7 +12039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW06031K00FKEC "
 			(at 250.19 90.17 0)
 			(effects
 				(font
@@ -12479,6 +12462,22 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "N/A"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "N/A"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "914a38ed-6e36-47f4-ac16-b3ca866f6710")
 		)
@@ -12750,7 +12749,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -12759,7 +12758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -12846,7 +12845,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 281.94 190.5 0)
 			(effects
 				(font
@@ -12855,7 +12854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 281.94 190.5 0)
 			(effects
 				(font
@@ -12941,7 +12940,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -12950,7 +12949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -13101,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -13110,7 +13109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -13190,6 +13189,22 @@
 			)
 		)
 		(property "Description" ""
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "N/A"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" "N/A"
 			(at 173.99 76.2 0)
 			(effects
 				(font
@@ -13660,7 +13675,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603750RFKEA?qs=OsKfLgOka2R0EXsbHc5LBA%3D%3D"
 			(at 93.98 173.99 0)
 			(effects
 				(font
@@ -13669,7 +13684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-750-E3 "
 			(at 93.98 173.99 0)
 			(effects
 				(font
@@ -13756,7 +13771,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603470RFKEA?qs=2LLIXXYaQepTa3IToKeExA%3D%3D"
 			(at 198.12 137.16 0)
 			(effects
 				(font
@@ -13765,7 +13780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-470-E3 "
 			(at 198.12 137.16 0)
 			(effects
 				(font
@@ -13851,7 +13866,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 280.67 96.52 0)
 			(effects
 				(font
@@ -13860,7 +13875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 280.67 96.52 0)
 			(effects
 				(font
@@ -13940,6 +13955,22 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "N/A"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" "N/A"
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -14081,7 +14112,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -14090,7 +14121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -14239,7 +14270,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 232.41 179.07 0)
 			(effects
 				(font
@@ -14248,7 +14279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 232.41 179.07 0)
 			(effects
 				(font
@@ -14399,7 +14430,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -14408,7 +14439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -14495,7 +14526,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603470RFKEA?qs=2LLIXXYaQepTa3IToKeExA%3D%3D"
 			(at 228.6 137.16 0)
 			(effects
 				(font
@@ -14504,7 +14535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-470-E3 "
 			(at 228.6 137.16 0)
 			(effects
 				(font
@@ -14655,6 +14686,22 @@
 				)
 			)
 		)
+		(property "Mouser Link" "N/A"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "N/A"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "470b1dd0-7256-4e22-9051-fc600e14a846")
 		)
@@ -14724,7 +14771,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEC?qs=LTJBsG9vER03gQprIr9%2F9w%3D%3D"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -14733,7 +14780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW06031K00FKEC "
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -14882,7 +14929,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060320K0FKEA?qs=QZuYiDxzHajCQLs7n6RwKw%3D%3D"
 			(at 217.17 196.85 0)
 			(effects
 				(font
@@ -14891,7 +14938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-20K-E3 "
 			(at 217.17 196.85 0)
 			(effects
 				(font
@@ -15133,7 +15180,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEC?qs=DhCTQV%252BB7kVUX5brQUG3LA%3D%3D"
 			(at 306.07 207.01 0)
 			(effects
 				(font
@@ -15142,7 +15189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW060310K0FKEC "
 			(at 306.07 207.01 0)
 			(effects
 				(font
@@ -15294,7 +15341,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603470RFKEA?qs=2LLIXXYaQepTa3IToKeExA%3D%3D"
 			(at 218.44 137.16 0)
 			(effects
 				(font
@@ -15303,7 +15350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-470-E3 "
 			(at 218.44 137.16 0)
 			(effects
 				(font
@@ -15388,7 +15435,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K50FKEC?qs=i6ly6635qGNp0Qo1T2EV4g%3D%3D"
 			(at 93.98 184.15 0)
 			(effects
 				(font
@@ -15397,7 +15444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW06031K50FKEC "
 			(at 93.98 184.15 0)
 			(effects
 				(font
@@ -15481,7 +15528,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060312K0FKEA?qs=HGDjLH0wsMDt1KMqI4fBYA%3D%3D"
 			(at 95.25 212.09 0)
 			(effects
 				(font
@@ -15490,7 +15537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-12K-E3 "
 			(at 95.25 212.09 0)
 			(effects
 				(font
@@ -15640,7 +15687,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 207.01 196.85 0)
 			(effects
 				(font
@@ -15649,7 +15696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 207.01 196.85 0)
 			(effects
 				(font
@@ -16358,7 +16405,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603220RFKEA?qs=4POWfzItllJ8AN%2FCTmuBmQ%3D%3D"
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -16367,7 +16414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-220-E3 "
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -16455,7 +16502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 320.04 137.16 0)
 			(effects
 				(font
@@ -16464,7 +16511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "581-0603ZG104ZAT2A "
 			(at 320.04 137.16 0)
 			(effects
 				(font
@@ -17058,7 +17105,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06036K04FKEA?qs=xp5wCHfXS9Mr99EVTCBF%252Bw%3D%3D"
 			(at 95.25 203.2 0)
 			(effects
 				(font
@@ -17067,7 +17114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "71-CRCW0603-6.04K-E3 "
 			(at 95.25 203.2 0)
 			(effects
 				(font
