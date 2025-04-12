@@ -29,24 +29,8 @@
       "zones": true
     },
     "visible_items": [
-      "vias",
-      "footprint_text",
-      "footprint_anchors",
       "ratsnest",
       "grid",
-      "footprints_front",
-      "footprints_back",
-      "footprint_values",
-      "footprint_references",
-      "tracks",
-      "drc_errors",
-      "drawing_sheet",
-      "bitmaps",
-      "pads",
-      "zones",
-      "drc_warnings",
-      "locked_item_shadows",
-      "conflict_shadows",
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0f7f7df5_ffffffff",
@@ -119,7 +103,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Starter.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -12,
+          "pos_y": -12,
+          "size_x": 2280,
+          "size_y": 1444
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {

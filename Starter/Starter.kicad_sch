@@ -5583,17 +5583,6 @@
 		)
 		(uuid "72dcd61b-a2c9-4487-81c1-4b8639e6c495")
 	)
-	(text "can you check this one - only one im worried abt?\nI put snapeda link at the top.\ni verified w perplexity that i can use this as a substitute\nfor Valvano's one. Then I looked at length and width\ndimensions on the mouser order and made sure they aligned with\nour footprint (Soic-16 narrow, although i just used snapeda footprint)"
-		(exclude_from_sim no)
-		(at 150.876 102.616 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 10 43 1)
-			)
-		)
-		(uuid "788a3d10-c1e8-4a5a-8be6-c9843380092b")
-	)
 	(text " I=(5-1.2-0.5)/220 = 15 mA."
 		(exclude_from_sim no)
 		(at 137.922 136.144 0)
@@ -5739,28 +5728,6 @@
 			)
 		)
 		(uuid "defc5288-d829-478c-a515-7e4db552df30")
-	)
-	(text "fill in these LED mouser parts!!"
-		(exclude_from_sim no)
-		(at 208.28 157.734 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 8 30 1)
-			)
-		)
-		(uuid "ea14b8f6-df1a-4a57-abf2-2ae6ebeae1bf")
-	)
-	(text "Can you double check this\ntransistor is a valid\nsubstitute for the previously\nspecced one as well?"
-		(exclude_from_sim no)
-		(at 307.848 161.798 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 5 9 1)
-			)
-		)
-		(uuid "f4bcf77c-96da-4f7b-bcef-5a42666c5087")
 	)
 	(junction
 		(at 320.04 144.78)
@@ -9841,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
 			(at 229.87 146.05 0)
 			(effects
 				(font
@@ -9850,7 +9817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "604-APTD2012LCGCK "
 			(at 229.87 146.05 0)
 			(effects
 				(font
@@ -10779,7 +10746,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -10788,7 +10755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "604-APTD2012LCGCK "
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -10875,7 +10842,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
 			(at 240.03 146.05 0)
 			(effects
 				(font
@@ -10884,7 +10851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "604-APTD2012LCGCK "
 			(at 240.03 146.05 0)
 			(effects
 				(font
@@ -11455,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -11464,7 +11431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "604-APTD2012LCGCK "
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -12598,7 +12565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser #" ""
+		(property "Mouser #" "604-APTD2012LCGCK "
 			(at 199.39 146.05 0)
 			(effects
 				(font
